@@ -1,0 +1,124 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size:  16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1 {
+   background-image: url(images/image1.png); 
+   min-height: 100%;
+}
+.pimg2 {
+    background-image: url(images/image2.png); 
+   min-height: 400px;
+}
+.pimg3 {
+    background-image: url(images/image3.png); 
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url(images/team55.jpg); 
+    min-height: 100%;
+}
+.pimg5{
+    background-image: url(images/sagor111.jpg); 
+    min-height: 100%;
+}
+.btn1{
+    margin-top: 50px;
+    color: red;
+    background-color: blue;
+}
+
+
+
+
+
+ .pimg1,
+ .pimg2,
+ .pimg3,
+ .pimg4,
+ .pimg5{
+    position:relative;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.ptext1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(196, 29, 29);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(196, 29, 29);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(196, 29, 29);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext4{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(196, 29, 29);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext5{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    color: rgb(196, 29, 29);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textBg {
+    background: #313131;
+    color: rgb(170, 170, 224);
+    padding: 20px;
+
+}
+.section {
+    padding: 50px 80px;
+    text-align: center;
+
+}
+.section-light{
+    background-color: #ddd;
+    color:#282E34;
+
+}
+.section-dark {
+    background-color: #282E34;
+    color: #ddd;
+
+}
